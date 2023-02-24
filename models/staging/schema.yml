@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: staging
+    database: de-zoomcamp-2023-375907
+    schema: dbt_dataset
+
+    tables:
+      - name: fhv_tripdata_2019
+      # we can define the data freshness
+      - name: fhv_tripdata_2020
+
